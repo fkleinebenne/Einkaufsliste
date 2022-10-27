@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
         arad= new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, arrayList);
     }
-
+//alles funktioniert <3
     public void setAdapter(ListView listView){
         listView.setAdapter(arad);
     }
